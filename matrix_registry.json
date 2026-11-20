@@ -958,7 +958,7 @@
           "outputs": ["playtest_report:path", "telemetry:json"],
           "skill_search_hints": ["agent playtesting", "game testing", "gymnasium", "headless game"],
           "providers": [
-            {"kind": "harness-cli", "name": "cli-anything-slay-the-spire-ii", "requires": {"binary": ["cli-anything-sts2"]}, "cost_tier": "free", "quality_tier": "sota", "offline": true, "notes": "Requires Slay the Spire II plus the bridge mod; ask the user if modding is permitted before attempting."},
+            {"kind": "harness-cli", "name": "cli-anything-slay-the-spire-ii", "cli": "slay_the_spire_ii", "requires": {"binary": ["cli-anything-sts2"]}, "cost_tier": "free", "quality_tier": "sota", "offline": true, "notes": "Requires Slay the Spire II plus the bridge mod; ask the user if modding is permitted before attempting."},
             {"kind": "python", "name": "gymnasium envs", "requires": {"package": ["gymnasium"]}, "cost_tier": "free", "quality_tier": "high", "offline": true},
             {"kind": "harness-cli", "name": "Godot headless + scripted input", "requires": {"binary": ["cli-anything-godot"]}, "cost_tier": "free", "quality_tier": "good", "offline": true, "notes": "Run Godot with --headless and GUT or scripted input."}
           ]
