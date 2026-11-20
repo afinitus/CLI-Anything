@@ -34,10 +34,10 @@ cli-anything-libreoffice --help
 cli-anything-libreoffice
 
 # Create a new project
-cli-anything-libreoffice project new -o project.json
+cli-anything-libreoffice document new -o project.json
 
 # Run with JSON output (for agent consumption)
-cli-anything-libreoffice --json project info -p project.json
+cli-anything-libreoffice --json --project project.json document info
 ```
 
 ### REPL Mode
@@ -158,9 +158,9 @@ Session management commands.
 Create a new libreoffice project file.
 
 ```bash
-cli-anything-libreoffice project new -o myproject.json
+cli-anything-libreoffice document new -o myproject.json
 # Or with JSON output for programmatic use
-cli-anything-libreoffice --json project new -o myproject.json
+cli-anything-libreoffice --json document new -o myproject.json
 ```
 
 
@@ -203,10 +203,10 @@ All commands support dual output modes:
 
 ```bash
 # Human output
-cli-anything-libreoffice project info -p project.json
+cli-anything-libreoffice --project project.json document info
 
 # JSON output for agents
-cli-anything-libreoffice --json project info -p project.json
+cli-anything-libreoffice --json --project project.json document info
 ```
 
 ## For AI Agents
