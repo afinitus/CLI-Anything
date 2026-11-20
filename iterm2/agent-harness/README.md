@@ -202,7 +202,7 @@ cli-anything-iterm2 menu state "View>Show Tabs in Fullscreen"
 ```bash
 cli-anything-iterm2 pref get TabViewType
 cli-anything-iterm2 pref set TabViewType 1
-cli-anything-iterm2 pref list                           # all valid preference keys
+cli-anything-iterm2 pref list-keys                      # all valid preference keys
 cli-anything-iterm2 pref tmux-get                       # tmux integration settings
 cli-anything-iterm2 pref theme                          # current UI theme
 ```
