@@ -36,7 +36,7 @@ cli-anything-inkscape
 cli-anything-inkscape document new -o project.json
 
 # Run with JSON output (for agent consumption)
-cli-anything-inkscape --json document info -p project.json
+cli-anything-inkscape --json --project project.json document info
 ```
 
 ### REPL Mode
@@ -273,10 +273,10 @@ All commands support dual output modes:
 
 ```bash
 # Human output
-cli-anything-inkscape project info -p project.json
+cli-anything-inkscape --project project.json document info
 
 # JSON output for agents
-cli-anything-inkscape --json project info -p project.json
+cli-anything-inkscape --json --project project.json document info
 ```
 
 ## For AI Agents
