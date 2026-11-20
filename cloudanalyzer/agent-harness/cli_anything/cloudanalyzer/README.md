@@ -39,7 +39,7 @@ CloudAnalyzer is already CLI-first, but this harness adds:
 
 ## Commands
 
-See [SKILL.md](cli_anything/cloudanalyzer/skills/SKILL.md) for the full command reference.
+See [SKILL.md](skills/SKILL.md) for the full command reference.
 
 | Group | Commands | Description |
 |---|---:|---|
