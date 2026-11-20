@@ -1150,7 +1150,7 @@ def param_edit(expression_path: str, param_id: str, value: float, fade_in: Optio
 
 # ── snapshot ───────────────────────────────────────────────────
 
-@cli.command()
+@cli.command(name="snapshot")
 @click.argument("model_path", type=click.Path(exists=True))
 @click.option("--out", "-o", type=click.Path(), default=None, help="Output HTML path")
 @click.option("--embed", is_flag=True, help="Embed textures as base64 (self-contained)")
