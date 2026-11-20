@@ -133,7 +133,7 @@ cli-hub search video
 cli-hub install kdenlive
 
 # Use it with JSON output
-cli-anything-kdenlive --json project create --name my-project
+cli-anything-kdenlive --json project new --name my-project
 ```
 
 ## More Info

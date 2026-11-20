@@ -76,7 +76,7 @@ This command group never renders or publishes previews by itself.
 Each CLI harness is a standalone Python package that wraps a real application (GIMP, Blender, etc.) with a stateful command-line interface. Every harness supports:
 
 - **REPL mode**: `cli-anything-gimp` launches an interactive session
-- **One-shot commands**: `cli-anything-gimp project create --name my-project`
+- **One-shot commands**: `cli-anything-gimp project new --name my-project`
 - **JSON output**: `cli-anything-gimp --json project list` for machine-readable output
 - **Undo/redo**: Stateful project management with full operation history
 
